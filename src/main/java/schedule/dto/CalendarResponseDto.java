@@ -15,4 +15,9 @@ public class CalendarResponseDto {
         this.scheduleId = calendar.getScheduleId();
         this.scheduleInformation = calendar.getScheduleInformation();
     }
+
+    public CalendarResponseDto(Long scheduleId, String scheduleInformaiton) {
+        this.scheduleId = scheduleId;
+        this.scheduleInformation = scheduleInformaiton;
+    }
 }
